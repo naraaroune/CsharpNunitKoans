@@ -29,10 +29,10 @@
     <ConsolePause>false</ConsolePause>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System" />
     <Reference Include="nunit.framework">
-      <Private>False</Private>
+      <HintPath>..\packages\NUnit.2.6.3\lib\nunit.framework.dll</HintPath>
     </Reference>
+    <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="K030_AboutStrings.cs" />
@@ -54,12 +54,7 @@
     <Folder Include="Koans\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="packages.config" />
     <None Include="README.md" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="CsharpNunitKoans.csproj">
-      <Project>{6766EA7E-EB79-40DE-9AD7-E47D655CA945}</Project>
-      <Name>CsharpNunitKoans</Name>
-    </ProjectReference>
   </ItemGroup>
 </Project>

@@ -25,7 +25,7 @@ namespace TheKoans
 		[Test]
 		public void AssertFalse ()
 		{
-			Assert.IsFalse (true, "Truth comes in many forms. Here what is true should be false.");
+			Assert.IsFalse (false, "Truth comes in many forms. Here what is true should be false.");
 		}
 
 		[Test]
