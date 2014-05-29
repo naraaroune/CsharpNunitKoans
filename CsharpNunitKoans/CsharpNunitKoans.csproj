@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -55,5 +55,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="CsharpNunitKoans.csproj">
+      <Project>{6766EA7E-EB79-40DE-9AD7-E47D655CA945}</Project>
+      <Name>CsharpNunitKoans</Name>
+    </ProjectReference>
   </ItemGroup>
 </Project>
